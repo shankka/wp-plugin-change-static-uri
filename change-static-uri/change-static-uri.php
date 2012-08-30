@@ -41,7 +41,6 @@ class csu_changer
 			update_option(csu_changer::$base_uri_option_key, trim($_POST['base_uri']));
 		$base_uri = get_option(csu_changer::$base_uri_option_key);
 		$default_uri = get_bloginfo('url');
-		echo WP_CONTENT_URL;
 		
 		$html =<<<html
 <div class="wrap">
